@@ -232,6 +232,6 @@ with tab5:
 
     st.subheader("Sumber & referensi")
     st.markdown(
-        "- Sumber data: katalog gempa BMKG (lihat README untuk tautan dataset asli).\n"
+        "- Sumber data: [Earthquakes in Indonesia (Kaggle, kekavigi)](https://www.kaggle.com/datasets/kekavigi/earthquakes-in-indonesia).\n"
         "- Kode & dokumentasi lengkap: lihat repositori GitHub pada README."
     )

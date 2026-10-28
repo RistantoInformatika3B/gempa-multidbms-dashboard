@@ -2,9 +2,9 @@
 
 Tugas Mandiri Terstruktur – Visualisasi Data dan Informasi (Informatika)
 
-- **Nama / NIM**: `ISI NAMA LENGKAP` / `ISI NIM`
-- **Live app**: `ISI URL STREAMLIT COMMUNITY CLOUD`
-- **Repositori**: `ISI URL GITHUB`
+- **Nama / NIM**: `Ristanto` / `230660121089`
+- **Live app**: `https://seismisitas-indonesia.streamlit.app`
+- **Repositori**: `https://github.com/RistantoInformatika3B/gempa-multidbms-dashboard`
 
 Dashboard interaktif yang menggabungkan **PostgreSQL** (data master kejadian gempa) dan
 **SQLite** (metadata referensi + mekanisme fokal) pada level aplikasi menggunakan **Pandas**,
@@ -92,7 +92,7 @@ Kredensial **tidak pernah di-hardcode**: dibaca dari `DATABASE_URL` atau `st.sec
 
 ## 7. Sumber data (primer)
 
-- Dataset katalog gempa: `ISI TAUTAN ASAL DATASET YANG ANDA UNDUH` (mis. halaman Kaggle/BMKG tempat file `katalog_gempa.csv` diperoleh).
+- Dataset katalog gempa: [Earthquakes in Indonesia (Kaggle, kekavigi)](https://www.kaggle.com/datasets/kekavigi/earthquakes-in-indonesia), file `katalog_gempa.csv`.
 - Rentang data: 2008-11-01 s.d. 2023-01-26, 92.887 kejadian; 2.735 di antaranya memiliki solusi mekanisme fokal.
 - Pengelompokan wilayah (`ref_wilayah`) dan kelas magnitudo/kedalaman dibuat penulis berdasarkan nama region pada katalog dan klasifikasi umum (bersifat pendekatan).
 
@@ -101,7 +101,6 @@ Kredensial **tidak pernah di-hardcode**: dibaca dari `DATABASE_URL` atau `st.sec
 - Streamlit – Connect to PostgreSQL: https://docs.streamlit.io/develop/tutorials/databases/postgresql
 - Streamlit – Connect to Neon: https://docs.streamlit.io/develop/tutorials/databases/neon
 - Plotly – Density heatmaps / map layers: https://plotly.com/python/density-heatmaps/
-- Tambahkan di sini repositori publik lain yang benar-benar Anda pelajari/adaptasi.
 
 ## 9. Catatan & keterbatasan
 
