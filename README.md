@@ -101,6 +101,8 @@ Kredensial **tidak pernah di-hardcode**: dibaca dari `DATABASE_URL` atau `st.sec
 - Streamlit – Connect to PostgreSQL: https://docs.streamlit.io/develop/tutorials/databases/postgresql
 - Streamlit – Connect to Neon: https://docs.streamlit.io/develop/tutorials/databases/neon
 - Plotly – Density heatmaps / map layers: https://plotly.com/python/density-heatmaps/
+- Repositori Streamlit: https://github.com/streamlit/streamlit
+- Repositori Plotly: https://github.com/plotly/plotly.py
 
 ## 9. Catatan & keterbatasan
 
